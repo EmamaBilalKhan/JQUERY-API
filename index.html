@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List API</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Todo List</h2>
+    <button class="fetch-button" onclick="fetchData()">Fetch Data</button>
+    <button class="add-button" onclick="addTodo()">Add New Todo</button>
+    <table id="todoTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Todo</th>
+                <th>Completed</th>
+                <th>User ID</th>
+                <th>Actions on Todo</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

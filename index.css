@@ -1,0 +1,19 @@
+th,td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+table{
+    margin: 5px;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+button {
+    margin: 5px;
+}
+.add-button{
+    display: none;
+}
+h2{
+    margin:5px;
+}
